@@ -1,0 +1,28 @@
+/* **************************** */
+/* 16102401|聊天室 */
+/* **************************** */
+
+/* * {
+	margin:0;
+	padding:0;
+	
+} */
+body {
+	color: #333;
+	font: 12px/1.5em Helvetica, Arial, sans-serif;
+	/* 等同于font: 12px;行高line-height: 1.5 */
+	word-break: break-all;/* 自动换行 */
+}
+
+#wrapper {
+	width: 500px;
+	margin: auto;
+}
+#messagewindow {
+	height: 300px;
+	margin-bottom: 10px;
+	border:1px solid #000;
+	overflow: scroll;/*规定当内容溢出元素框时发生的事情，可选属性有：visible、hidden、scroll、auto、inherit*/
+}
+form input {margin-top: 5px;}
+#author, #msg {width: 400px;}
